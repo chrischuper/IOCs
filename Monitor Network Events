@@ -1,0 +1,6 @@
+// Monitoring C&C connection
+// Analysis of cyberattack on U.S. think tanks, non-profits, public sector by unidentified attackers - Microsoft Security Blog
+DeviceNetworkEvents
+| where RemoteUrl has "pandorasong.com" 
+DeviceNetworkEvents
+| where RemoteIP == "95.216.59.92"
